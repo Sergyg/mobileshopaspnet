@@ -1,11 +1,88 @@
 {
   "Version": 1,
-  "Hash": "bUm1vPqwZHJejLhtNIB7WgmMI8ngxypkYrDApg4MvgQ=",
+  "Hash": "T/cmHck+R2zPEchlxu5jwJiV4pFHgA4oaS/m+uVz5aI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-ang1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-ang1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
+    },
+    {
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-ang2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-ang2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
+    },
+    {
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-core1.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-core1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
+    },
+    {
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-core2.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/sb-core2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
+    }
+  ]
 }

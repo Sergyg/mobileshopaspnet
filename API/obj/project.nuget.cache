@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "DTd2vy8z0PHafDPQlsEnAJ34VoOwZsJKPS/eoSkBglooibKSKQjrtcQh0TYStJ+8FD6QCQKHz9xthJM0Pf7P1w==",
+  "dgSpecHash": "JKMOABMEmVcHe+01JrBIkWbEGp+3D8l7rOMUk8b14xqSoQ1hIZLYQC6l7eiedbPLHAe1oK3i7oxJM0uD/aIVxg==",
   "success": true,
   "projectFilePath": "D:\\project\\mobinet\\sln\\api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ser\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\ser\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.3\\microsoft.aspnetcore.cryptography.internal.5.0.3.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.3\\microsoft.aspnetcore.cryptography.keyderivation.5.0.3.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.3.nupkg.sha512",
+    "C:\\Users\\ser\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.1\\microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
     "C:\\Users\\ser\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.1\\microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",

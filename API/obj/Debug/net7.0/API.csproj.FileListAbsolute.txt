@@ -70,3 +70,6 @@ D:\project\mobinet\sln\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\project\mobinet\sln\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\project\mobinet\sln\api\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
 D:\project\mobinet\sln\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project\mobinet\sln\api\bin\Debug\net7.0\API.staticwebassets.runtime.json
+D:\project\mobinet\sln\api\bin\Debug\net7.0\AutoMapper.dll
+D:\project\mobinet\sln\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

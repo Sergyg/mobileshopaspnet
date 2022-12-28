@@ -1,6 +1,6 @@
 namespace Core.Specifications;
 
-public class BaseSpecifications
+public interface ISpecification
 {
     
 }
