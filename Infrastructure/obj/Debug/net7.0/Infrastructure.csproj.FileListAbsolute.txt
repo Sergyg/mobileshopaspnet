@@ -13,3 +13,5 @@ D:\project\mobinet\sln\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
 D:\project\mobinet\sln\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 D:\project\mobinet\sln\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 D:\project\mobinet\sln\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\project\mobinet\sln\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+D:\project\mobinet\sln\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache

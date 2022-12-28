@@ -10,3 +10,5 @@ D:\project\mobinet\sln\core\obj\Debug\net7.0\Core.dll
 D:\project\mobinet\sln\core\obj\Debug\net7.0\refint\Core.dll
 D:\project\mobinet\sln\core\obj\Debug\net7.0\Core.pdb
 D:\project\mobinet\sln\core\obj\Debug\net7.0\ref\Core.dll
+D:\project\mobinet\sln\Core\bin\Debug\net7.0\Core.runtimeconfig.json
+D:\project\mobinet\sln\Core\obj\Debug\net7.0\Core.genruntimeconfig.cache
