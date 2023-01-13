@@ -73,3 +73,5 @@ D:\project\mobinet\sln\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dl
 D:\project\mobinet\sln\api\bin\Debug\net7.0\API.staticwebassets.runtime.json
 D:\project\mobinet\sln\api\bin\Debug\net7.0\AutoMapper.dll
 D:\project\mobinet\sln\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\project\mobinet\sln\api\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\project\mobinet\sln\api\bin\Debug\net7.0\StackExchange.Redis.dll

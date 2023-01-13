@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\project\\mobinet\\sln\\api\\API.csproj",
         "projectName": "API",
         "projectPath": "D:\\project\\mobinet\\sln\\api\\API.csproj",
-        "packagesPath": "C:\\Users\\ser\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\serw\\.nuget\\packages\\",
         "outputPath": "D:\\project\\mobinet\\sln\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ser\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\serw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -102,11 +102,11 @@
         "projectUniqueName": "D:\\project\\mobinet\\sln\\Core\\Core.csproj",
         "projectName": "Core",
         "projectPath": "D:\\project\\mobinet\\sln\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\ser\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\serw\\.nuget\\packages\\",
         "outputPath": "D:\\project\\mobinet\\sln\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ser\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\serw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -177,7 +177,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -187,11 +187,11 @@
         "projectUniqueName": "D:\\project\\mobinet\\sln\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
         "projectPath": "D:\\project\\mobinet\\sln\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ser\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\serw\\.nuget\\packages\\",
         "outputPath": "D:\\project\\mobinet\\sln\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ser\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\serw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -237,6 +237,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.90, )"
+            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -266,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

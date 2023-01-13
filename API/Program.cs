@@ -7,6 +7,7 @@ using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 
 namespace API;
 
@@ -39,18 +40,26 @@ public class Program
 }
 
 public class Startup
-    {
+{
+    private readonly IConfiguration _configuration; 
+         //{ get; }
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            _configuration = configuration;
         }
    
-        private IConfiguration Configuration { get; }
+       
 
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<StoreContext>
-                (x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                (x => x.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));
+            services.AddSingleton<IConnectionMultiplexer>(c =>
+            {
+                var configuration = ConfigurationOptions.Parse(_configuration.GetConnectionString("Redis"),  true);
+                return ConnectionMultiplexer.Connect(configuration);
+
+            });
             services.AddControllers();
             services.AddSwaggerGen();
 
@@ -71,8 +80,12 @@ public class Startup
             app.UseSwaggerDocumentation();
             
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
 
-            app.UseHttpsRedirection();
+           app.UseHttpsRedirection();
 
             app.UseRouting();
          
