@@ -17,21 +17,21 @@ public class ProductsWithTypesAndBrandsSpecification : BaseSpecifications<Produc
         AddOrderBy(x => x.Name);
         ApplyPaging(productParams.PageSize * (productParams.PageIndex -1), productParams.PageSize);
         
-        if (!String.IsNullOrEmpty(productParams.Sort))
-        {
-           switch (productParams.Sort)
-                {
-                    case "priceAsc":
-                        AddOrderBy(p => p.Price);
-                        break;
-                    case "priceDesc":
-                        AddOrderByDescending(p => p.Price);
-                        break;
-                    default:
-                        AddOrderBy(n => n.Name);
-                        break;
-               }
-        }
+    if (!String.IsNullOrEmpty(productParams.Sort))
+    {
+       switch (productParams.Sort)
+            {
+                case "priceAsc":
+                    AddOrderBy(p => p.Price);
+                    break;
+                case "priceDesc":
+                    AddOrderByDescending(p => p.Price);
+                    break;
+                default:
+                    AddOrderBy(n => n.Name);
+                    break;
+           }
+    }
     }
 
     public ProductsWithTypesAndBrandsSpecification(int id) : base(x => x.Id == id)

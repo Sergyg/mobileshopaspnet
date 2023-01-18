@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\project\\mobinet\\sln\\Core\\Core.csproj",
         "projectName": "Core",
         "projectPath": "D:\\project\\mobinet\\sln\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\ser\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\serw\\.nuget\\packages\\",
         "outputPath": "D:\\project\\mobinet\\sln\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ser\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\serw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -40,7 +40,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

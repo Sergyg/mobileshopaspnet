@@ -2,12 +2,17 @@ using API.Middleware;
 using API.Helpers;
 using API.Errors;
 using API.Extensions;
+using Core.Entities.Identity;
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Identity;
+using Infrastructure.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
+
 
 namespace API;
 
@@ -24,7 +29,11 @@ public class Program
             var context = services.GetRequiredService<StoreContext>();
             await context.Database.MigrateAsync();
             await StoreContextSeed.SeedAsync(context, loggerFactory);
-            
+            var userManager = services.GetRequiredService<UserManager<AppUser>>();
+            var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+            await identityContext.Database.MigrateAsync();
+            await AppIdentityDbContextSeed.SeedUsersAsync(userManager);
+
         }
         catch (Exception ex)
         {
@@ -52,8 +61,13 @@ public class Startup
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ITokenService, TokenService>();
             services.AddDbContext<StoreContext>
                 (x => x.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<AppIdentityDbContext>(x =>
+            {
+                x.UseSqlite(_configuration.GetConnectionString("IdentityConnection"));
+            });
             services.AddSingleton<IConnectionMultiplexer>(c =>
             {
                 var configuration = ConfigurationOptions.Parse(_configuration.GetConnectionString("Redis"),  true);
@@ -62,8 +76,9 @@ public class Startup
             });
             services.AddControllers();
             services.AddSwaggerGen();
-
+            
             services.AddAplicationServices();
+            services.AddIdentityServices(_configuration);
             services.AddControllers();
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddCors(opt =>
@@ -92,6 +107,8 @@ public class Startup
             app.UseStaticFiles();
 
             app.UseCors("CorsPolicy");
+
+            app.UseAuthentication();
             
             app.UseAuthorization();
 

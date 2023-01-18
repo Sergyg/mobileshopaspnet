@@ -75,3 +75,16 @@ D:\project\mobinet\sln\api\bin\Debug\net7.0\AutoMapper.dll
 D:\project\mobinet\sln\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\project\mobinet\sln\api\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
 D:\project\mobinet\sln\api\bin\Debug\net7.0\StackExchange.Redis.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\project\mobinet\sln\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
