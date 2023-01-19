@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QXGm6rAX0SdwunxuvjkfI+2mayET0E98oJWUdlgYIMCeUGrprBzckptw6BycgQu2KIlJtUmjiVugeIkRP6awvQ==",
+  "dgSpecHash": "6lkEG11XOX5oJ6MLtGsbV78ngV0YBD9oV5vgnXIPDq22tHwLhr+cKuhgPqgnFlFjGWVgzq6p/awWnA7iihNYUA==",
   "success": true,
-  "projectFilePath": "D:\\project\\mobinet\\sln\\API\\API.csproj",
+  "projectFilePath": "D:\\project\\mobinet\\sln\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serw\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\serw\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

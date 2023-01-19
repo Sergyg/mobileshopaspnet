@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\mobinet\\sln\\API\\API.csproj": {}
+    "D:\\project\\mobinet\\sln\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\project\\mobinet\\sln\\API\\API.csproj": {
+    "D:\\project\\mobinet\\sln\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\mobinet\\sln\\API\\API.csproj",
+        "projectUniqueName": "D:\\project\\mobinet\\sln\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\project\\mobinet\\sln\\API\\API.csproj",
+        "projectPath": "D:\\project\\mobinet\\sln\\api\\API.csproj",
         "packagesPath": "C:\\Users\\serw\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\mobinet\\sln\\API\\obj\\",
+        "outputPath": "D:\\project\\mobinet\\sln\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\serw\\AppData\\Roaming\\NuGet\\NuGet.Config"

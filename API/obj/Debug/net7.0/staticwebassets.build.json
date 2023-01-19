@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hTlQuG9d7nV5Ce8KNkxMFNyxzCbHNM5hG6CaLJZfzOY=",
+  "Hash": "T/cmHck+R2zPEchlxu5jwJiV4pFHgA4oaS/m+uVz5aI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "D:\\project\\mobinet\\sln\\API\\wwwroot\\",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\project\\mobinet\\sln\\API\\wwwroot\\images\\products\\sb-ang1.png",
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project\\mobinet\\sln\\API\\wwwroot\\",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang1.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
     },
     {
-      "Identity": "D:\\project\\mobinet\\sln\\API\\wwwroot\\images\\products\\sb-ang2.png",
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project\\mobinet\\sln\\API\\wwwroot\\",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang2.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
     },
     {
-      "Identity": "D:\\project\\mobinet\\sln\\API\\wwwroot\\images\\products\\sb-core1.png",
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project\\mobinet\\sln\\API\\wwwroot\\",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core1.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
     },
     {
-      "Identity": "D:\\project\\mobinet\\sln\\API\\wwwroot\\images\\products\\sb-core2.png",
+      "Identity": "D:\\project\\mobinet\\sln\\api\\wwwroot\\images\\products\\sb-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project\\mobinet\\sln\\API\\wwwroot\\",
+      "ContentRoot": "D:\\project\\mobinet\\sln\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core2.png",
       "AssetKind": "All",
