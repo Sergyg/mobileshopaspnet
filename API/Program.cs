@@ -77,7 +77,7 @@ public class Startup
             services.AddControllers();
             services.AddSwaggerGen();
             
-            services.AddAplicationServices();
+            services.AddApplicationServices();
             services.AddIdentityServices(_configuration);
             services.AddControllers();
             services.AddAutoMapper(typeof(MappingProfiles));
